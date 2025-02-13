@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: shakeelantu/flask-app:latest
+          tags: shakeelantu/flask-app:${{ github.sha }}
